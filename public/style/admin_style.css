@@ -1,0 +1,112 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MayakUltraExtendedLight";
+  src: url(../fonts/MayakUltraExtendedLight.ttf);
+}
+
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+th,
+td {
+  padding: 20px;
+  font-family: "MayakUltraExtendedLight";
+  text-align: center;
+  align-items: center;
+}
+
+th {
+  background: #985454;
+  color: white;
+  font-family: "MayakUltraExtendedLight";
+}
+
+td {
+  background: #985454;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.class form {
+    font-family: "MayakUltraExtendedLight";
+    font-weight: bolder;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #985454;
+    color: #F5F5DD;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+h1 {
+  color: #985454;
+  font-family: "MayakUltraExtendedLight";
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: #985454;
+  font-family: "MayakUltraExtendedLight";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: #985454;
+  font-family: "MayakUltraExtendedLight";
+}
+
+/* input[type="text"] {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+} */
+
+form {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: white;
+  background-color: #985454;
+  font-family: "MayakUltraExtendedLight";
+  border: 1px solid #985454;
+  height: 100px;
+  width: 300px;
+  border-radius: 20px;
+}
+.text {
+  font-family: "MayakUltraExtendedLight";
+  border: 1px solid #985454;
+}
+
+.description {
+  font-family: "MayakUltraExtendedLight";
+  border: 1px solid #985454;
+}
+
+.price {
+  font-family: "MayakUltraExtendedLight";
+  border: 1px solid #985454;
+}

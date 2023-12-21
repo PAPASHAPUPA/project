@@ -1,0 +1,212 @@
+*,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+
+@font-face {
+    font-family: "MayakUltraExtendedLight";
+    src: url(../fonts/MayakUltraExtendedLight.ttf);
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DD;
+    height: 60vh;
+
+}
+
+form {
+    font-family: "MayakUltraExtendedLight";
+    font-weight: bolder;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #985454;
+    color: #F5F5DD;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+  
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  textarea {
+    font-family: "MayakUltraExtendedLight";
+    color: #985454;
+font-weight: bolder;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    font-family: "MayakUltraExtendedLight";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #985454;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    height: 50%;
+  }
+
+  button:hover {
+   background-color: #F5F5DD; 
+        color: #985454;
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .logo {
+    display: flex;
+    justify-content: left;
+    width: 150px;
+    height: 150px;
+    }
+    
+    image {
+        margin-bottom: 10px;
+      }
+      
+      img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 7px;
+        margin-left: 10px;
+      }
+    
+    h1 {
+        font-family: "MayakUltraExtendedLight";
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        position: relative;
+        bottom: 140px;
+        color: #985454;
+    
+    }
+    hr {
+        color: #985454; 
+        position: relative;
+        bottom: 150px;
+        width: 800px;
+        border-width: 2px;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+    
+      nav {
+        
+        position: relative;
+        bottom: 150px;
+        font-family: "MayakUltraExtendedLight";
+        color: #985454; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      nav a {
+        font-family: "MayakUltraExtendedLight";
+        color: #985454; 
+        text-decoration: none;
+        padding: 5px 20px;
+        display: inline-block;
+        font-size: 23px;
+        transition: background-color 0.3s ease;
+      }
+    
+      nav a:hover {
+        background-color: #985454; 
+        color: #F5F5DD;
+       
+      }
+
+      footer {
+        margin-top: 40px;
+        background-color: #985454;
+        color: #F5F5DD;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      
+      footer div {
+        text-align: center;
+        max-width: 300px;
+      }
+      
+      h3, h4 {
+        margin-bottom: 10px;
+        font-family: "MayakUltraExtendedLight";
+      }
+      
+      a {
+        color: #F5F5DD;
+        text-decoration: none;
+        font-family: "MayakUltraExtendedLight";
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      .logo2 img {
+        width: 400px;
+        height: 250px;
+        right: 100px;
+        margin-left: -100px;
+      
+      }
+      
+      .menu {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .menu a:hover {
+        background-color: #F5F5DD; 
+        color: #985454;
+       
+      }
+      
+      .menu a {
+        font-family: "MayakUltraExtendedLight";
+        color: #F5F5DD; 
+        text-decoration: none;
+        
+        display: inline-block;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+      }

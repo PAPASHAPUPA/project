@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "MayakUltraExtendedLight";
+    src: url(../fonts/MayakUltraExtendedLight.ttf);
+  }
+
+
+
+body {
+    font-family: "MayakUltraExtendedLight";
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DD;
+
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.reg-form {
+    background-color: #985454;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.email,
+.name,
+.password {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.button {
+    font-family: "MayakUltraExtendedLight";
+    background-color: #985454;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #F5F5DD;
+}
+
+.auth-text {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.auth-text a {
+    color: #F5F5DD;
+    text-decoration: none;
+}
+
+.auth-text a:hover {
+    text-decoration: underline;
+}
+
+
+a {
+color: #985454;
+}

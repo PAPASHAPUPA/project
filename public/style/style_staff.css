@@ -1,0 +1,256 @@
+*,
+    *::before,
+    *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+
+@font-face {
+    font-family: "MayakUltraExtendedLight";
+    src: url(../fonts/MayakUltraExtendedLight.ttf);
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DD;
+ 
+   
+}
+
+.logo {
+display: flex;
+justify-content: left;
+width: 150px;
+height: 150px;
+margin-bottom: 10px;
+
+    object-fit: cover;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+/* image {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-left: 10px;
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-left: 10px;
+  } */
+
+h1 {
+    font-family: "MayakUltraExtendedLight";
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: 140px;
+    color: #985454;
+
+}
+hr {
+    color: #985454; 
+    position: relative;
+    bottom: 150px;
+    width: 800px;
+    border-width: 2px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav {
+    
+    position: relative;
+    bottom: 150px;
+    font-family: "MayakUltraExtendedLight";
+    color: #985454; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a {
+    
+    font-family: "MayakUltraExtendedLight";
+    color: #985454; 
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    font-size: 23px;
+    transition: background-color 0.3s ease;
+  }
+
+  nav a:hover {
+    background-color: #985454; 
+    color: #F5F5DD;
+   
+  }
+
+  .category.active {
+    display: block;
+  }
+
+  /* Анимация переключения между категориями */
+  .category {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+
+.style_button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ button  {
+    font-family: "MayakUltraExtendedLight";
+    color: #985454; 
+    background-color: #F5F5DD;
+    border: none;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    font-size: 23px;
+    transition: background-color 0.3s ease;
+  }
+
+ button:hover {
+    background-color: #985454; 
+    color: #F5F5DD;
+  }
+
+
+  .staff .category-leaders,
+  .staff .category-employees,
+  .staff .category-orchestra, 
+  .staff .category-choreographers {
+    display: none;
+  }
+  
+  .staff .category-leaders.active,
+  .staff .category-employees.active,
+  .staff .category-orchestra.active, 
+  .staff .category-choreographers.active{
+    display: flex;
+  }  
+
+  h2 {
+    color: #F5F5DD;
+    background-color: #985454;
+    width: 37%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "MayakUltraExtendedLight"; 
+    font-size: 35px;
+
+  }
+
+  .staff{
+    padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+    
+  }
+
+  .d-flex{
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+
+  .lead1 img,
+  .lead2 img {
+    
+    width: 500px;
+    height: 600px;/* Делаем изображения адаптивными */
+    
+  }
+
+
+.lead2 h2 {
+  width: auto;
+}
+
+
+.lead1 h2 {
+  width: auto;
+}
+
+footer {
+  background-color: #985454;
+  color: #F5F5DD;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer div {
+  text-align: center;
+  max-width: 300px;
+}
+
+h3, h4 {
+  margin-bottom: 10px;
+  font-family: "MayakUltraExtendedLight";
+}
+
+a {
+  color: #F5F5DD;
+  text-decoration: none;
+  font-family: "MayakUltraExtendedLight";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logo2 img {
+  width: 400px;
+  height: 250px;
+  right: 100px;
+  margin-left: -100px;
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a:hover {
+  background-color: #F5F5DD; 
+  color: #985454;
+ 
+}
+
+.menu a {
+  font-family: "MayakUltraExtendedLight";
+  color: #F5F5DD; 
+  text-decoration: none;
+  
+  display: inline-block;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
